@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+.navbar{     /*background style of heading*/
+	background: #FFF;
+	padding: 10px 20px;
+	transition: padding 2s ease;
+}
+.navbar-brand{ /*name*/
+	font-family: 'Lora', serif;
+  color: #0147FA;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.75;
+}/*
+.logo img{
+	width: 100px;
+	float: left;
+	height: 100px;
+	margin-top: 20px;
+	margin-right: 20px;
+}*/
+.nav-link{
+	color: #fff;
+	font-size: 25px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background 2s ease;
+}
+.nav-link:hover{
+	background: #1919d1;
+	color: #fff;
+}
+.nav-active{
+	color: #003f87;
+	font-size: 25px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background: rgba(83,83,248,0.322);
+	transition: background 2s ease;
+}
+.nav-active:hover{
+	background: #1717f0;
+	background: #01012e;
+}
+.sub-menu{
+	display: none;
+}
+
+.nav-link:hover sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgba(0,0,100);
+margin-top: 15px;
+margin-left: -15px;	
+
+}
+
+/*--Banner--*/
+.banner{
+	height: 100vh;
+	background: url('./images/site.jpeg');
+	justify-content: center;
+	align-items: center;
+
+}
+.heading{
+	text-align:center;
+	color: #fff;/*white*/ 
+}
+.heading h1{
+	font-weight: bold;
+	font-size: 38px;
+}
+.heading p1{
+	font-size: 25px;
+}
+.btn-main{
+	background: #fff;
+	color: #01012e;
+border-radius: 10px 20px;
+display: inline-block;
+vertical-align: middle;
+transform:perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0,0,0,0);
+transition-duration: 0.3s;
+transition-property: transform;
+transform-origin: 0 100%;
+
+}
+.btn-main:hover, .btn-main:focus, .btn-main:active{
+	transform: #01012e;
+	font-weight: bold;f
+
+}
+
+/*--End--*/
+.about h6{
+	font-size: 20px;
+	color: #3b3bff;
+	font-weight: bold;
+	}
+	.about h2{
+		font-weight: bold;
+		color: #00009d;
+		}
+	.about p{
+		font-size: 18px;
+		color: #01012e;
+	}
+	.fas{
+		color: #2727ff;
+	}
+	.fa{
+		color: #fff;
+		size: 
+	}
+	.far{
+		color: #0053a0
+	}
+
+	.about .title-border{
+		content: "";
+		width: 30%;
+		height: :2px;
+		display: block;
+		background: block;
+		background-color: #01012e;
+		border-radius: 50%;
+		margin: 1%;
+		margin-left: 35%;
+
+	}
+	.contact .fas{
+		color: #01012e;
+
+	}
+	.contact .far{
+		color: #01012e;
+
+	}
+	.btn-cont{
+		background: #01012e;
+		color: #fff;
+	}
+	.btn-cont:hover{
+		color: #fff;
+		border-radius: 10px 20px 10px 20px;
+	}
+	.contact-us h2{
+		font-weight: bold;
+		color: #dc143c;
+
+	}
+	.contact-us mt-3{
+		color: #4e4eb1;
+		font-size:20px;
+	}
+	.projects h2{
+	font-weight: bold;
+		font-size: 70px;
+		color: #0d5d61;
+		margin-bottom: 20px;
+	}
+	.column h5{
+		margin-top: 10px;
+		font-size: 26px;
+		color: red;
+		font-weight: bold;
+
+	}
